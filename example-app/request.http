@@ -1,0 +1,25 @@
+GET http://localhost:3030/messages
+
+###
+
+POST http://localhost:3030/messages
+Content-Type: application/json
+
+{
+  "text": "Hello there"
+}
+
+###
+
+PATCH http://localhost:3030/messages/4437-93fe-243d-fa10
+Content-Type: application/json
+
+{
+  "text": "changed"
+}
+
+###
+
+DELETE  http://localhost:3030/messages/3f04-b7b0-5961-d7de
+
+###
